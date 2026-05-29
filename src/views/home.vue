@@ -14,9 +14,9 @@ const quickStats = ref([
     
     <div class="absolute inset-0 z-0">
       <img 
-        src="/src/assets/visit.jpg" 
+        src="/src/assets/kigali.jpg" 
         alt="Rwanda Landscape" 
-        class="w-full h-full object-cover opacity-40 scale-105 animate-[pulse_8s_infinite_alternate] transition-transform duration-[4000ms]"
+        class="w-full h-full object-cover opacity-60000000000 scale-105 animate-[pulse_8s_infinite_alternate] transition-transform duration-[4000ms]"
       />
       <div class="absolute inset-0 bg-gradient-to-r from-stone-950 via-stone-950/80 to-transparent"></div>
       <div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-transparent to-transparent"></div>
