@@ -1,7 +1,7 @@
  <!-- this page help in display what is supposede to be dispalyed in the page -->
  <template>
   <nav class="bg-green-800 text-white px-8 py-4 flex items-center justify-between shadow">
-    <img src="../assets/images/visit.png" alt="logo image" class="h-10">
+    <img src="../assets/visit.jpg" alt="logo image" class="h-10">
     <!-- so here is designing the word to be included in the nav  bar phase -->
 
     <ul class="flex gap-8 text-sm font-medium w-full justify-end  items-center">
