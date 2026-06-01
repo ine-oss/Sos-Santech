@@ -86,4 +86,24 @@ const filteredVideos = computed(() => {
               </div>
             </div>
 
-            <span class="absolute bottom-3 right-3 bg-stone-900/80 backdrop-blur-sm text-
+            <span class="absolute bottom-3 right-3 bg-stone-900/80 backdrop-blur-sm text-[10px] font-mono px-2 py-0.5 rounded-md text-stone-100 tracking-wider">
+              {{ video.duration }}
+            </span>
+          </div>
+
+          <div class="p-6 flex-grow flex flex-col justify-center">
+            <span class="text-[10px] font-bold text-emerald-600 uppercase tracking-widest block mb-1.5">
+              {{ video.category }}
+            </span>
+            <h3 class="text-base font-bold text-stone-800 line-clamp-2 min-h-[48px] leading-snug group-hover:text-emerald-700 transition-colors duration-300">
+              {{ video.title }}
+            </h3>
+          </div>
+          
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+</template>

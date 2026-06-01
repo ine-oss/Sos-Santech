@@ -52,6 +52,9 @@
 
         </ul>
       </li>
+       <li>
+        <router-link to="/Links" class="hover:text-yellow-300">Links</router-link>
+      </li>
     </ul>
   </nav>
 </template>

@@ -11,6 +11,7 @@ import Southern from '../views/southern.vue';
 import Videos from '../views/videos.vue';
 import Western from '../views/western.vue';
 import Eastern from '../views/eastern.vue';
+import Links from '../views/links.vue';
    // this router combine all the links is like a amother and links  are children  
    // on this page we speify the paths  of the links
 const routes = [
@@ -62,6 +63,11 @@ const routes = [
     component: Videos
   },
 
+     { 
+    path: '/Links', 
+    name: 'Links', 
+    component: Links
+  },
 
 
 
