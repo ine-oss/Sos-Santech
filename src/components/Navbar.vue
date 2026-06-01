@@ -40,6 +40,18 @@
       <li>
         <router-link to="/contact" class="hover:text-yellow-300">CONTACT</router-link>
       </li>
+
+        
+      <li class="relative group"> 
+        <a href="#" class="hover:text-yellow-300">lang<span>v</span></a>
+        <ul class="invisible group-hover:visible opacity-0 group-hover:opacity-100 absolute bg-white text-green-900 rounded shadow w-48 top-full left-0 z-50">
+          <li><a href="#" class="block px-4 py-2 hover:bg-green-200 text-green-900">English</a></li>
+          <li><a href="#" class="block px-4 py-2 hover:bg-green-200 text-green-900">Kiswahili</a></li>
+          <li><a href=" #" class="block px-4 py-2 hover:bg-green-200 text-green-900">French</a></li>
+          <li><a href="#" class="block px-4 py-2 hover:bg-green-200 text-green-900">Kinyarwanda</a></li>
+
+        </ul>
+      </li>
     </ul>
   </nav>
 </template>
